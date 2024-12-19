@@ -1,4 +1,4 @@
-[Ej_1_UML_PatronFactory_.txt](https://github.com/user-attachments/files/18194207/Ej_1_UML_PatronFactory_.txt)# Ejercicio 1
+(https://github.com/user-attachments/files/18194207/Ej_1_UML_PatronFactory_.txt)# Ejercicio 1
 
 ![PHP Version](https://img.shields.io/badge/PHP-8-blue.svg) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green.svg) ![Design Pattern](https://img.shields.io/badge/Design%20Pattern-Strategy-orange.svg)
 
@@ -43,34 +43,6 @@ php ej1_PatronFactory.php
 ![ej1_PatronFactory](https://github.com/user-attachments/assets/6a291fa1-052b-422e-9599-41d3b964b6d6)
 
 
-### Diagrama UML:
-
-[Uplo@startuml
-
-interface Personaje {
-+ atacar(): string
-+ moverse(): string
-}
-
-class Esqueleto {
-+ atacar(): string
-+ moverse(): string
-}
-
-class Zombi {
-+ atacar(): string
-+ moverse(): string
-}
-
-class PersonajeFactory {
-+ crearPersonaje(nivel: string): PersonajeFactory
-}
-
-Personaje <|.. Esqueleto
-Personaje <|..Zombi
-PersonajeFactory ..> Personaje
-
-@endumlading Ej_1_UML_PatronFactory_.txt…]()
 
 ## ⚙️ Principios SOLID Aplicados
 
