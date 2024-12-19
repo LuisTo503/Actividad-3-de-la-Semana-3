@@ -2,7 +2,7 @@
 
 ![PHP Version](https://img.shields.io/badge/PHP-8-blue.svg) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green.svg) ![Design Pattern](https://img.shields.io/badge/Design%20Pattern-Factory-orange.svg)
 
-Este proyecto implementa un sistema que muestra mensajes en diferentes formatos de salida (consola, JSON y archivo TXT), aplicando el **patrón de diseño Strategy** y los **principios SOLID**.
+Este proyecto implementa un sistema que muestra mensajes en diferentes formatos de salida (consola, JSON y archivo TXT), aplicando el **patrón de diseño Factory** y los **principios SOLID**.
 
 ---
 
