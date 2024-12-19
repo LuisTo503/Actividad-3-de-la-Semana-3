@@ -48,7 +48,7 @@ class Ejemplo {
 $ejemplo = new Ejemplo();
 $ejemplo->mostrarMensaje("¡Hola, mundo!");
 ?>
-
+```
 ---
 ## 📝 Ejemplo de Salida
 
