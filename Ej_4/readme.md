@@ -18,7 +18,8 @@ Debes utilizar al menos dos personajes para este ejercicio.
 
 - **PHP 8**: Lenguaje base del proyecto.
 - **Patrón Strategy**: 
-- **Principios Strategy**: Permite añadir funcionalidades adicionales a un objeto sin modificar su estructura. Utiliza composición para envolver un objeto con otras clases que agregan o modifican su comportamiento.
+- **Principios Strategy**: Tenemos un sistema donde mostramos mensajes en distintos tipos de salida, como por consola, formato JSON y archivo TXT. Debes crear un programa donde se muestren todos estos tipos de salidas.
+- Para este propósito, aplica el patrón de diseño Strategy.
 
 ## 📜 Cómo Usar
 
