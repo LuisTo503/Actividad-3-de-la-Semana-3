@@ -39,7 +39,7 @@ Guía de ejercicios patrones de diseño
 │   ├── Ej_4
 │   │   ├── Ej_4_Strategy.php
 ├── README.md
-
+```
 
 ---
 
