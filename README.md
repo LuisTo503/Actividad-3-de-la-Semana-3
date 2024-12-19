@@ -47,7 +47,7 @@ Guía de ejercicios patrones de diseño
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu_usuario/sistema-mensajes.git
+   git clone git@github.com:LuisTo503/Actividad-3-de-la-Semana-3.git
    cd sistema-mensajes
    ```
 
@@ -122,7 +122,7 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**  
+**Luis Rolando Tobar Moreno**  
 Desarrollador apasionado por el diseño limpio y las buenas prácticas.  
 [LinkedIn](https://www.linkedin.com/in/luis-tobar-79129944/)) | [GitHub](https://github.com/LuisTo503)
 
