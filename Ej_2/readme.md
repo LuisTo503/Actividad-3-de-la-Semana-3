@@ -21,7 +21,7 @@ aceptar estos archivos independientemente de que sean de versiones anteriores.
 
 - **PHP 8**: Lenguaje base del proyecto.
 - **Patrón Adapter**: 
-- **Principios SOLID**: Garantizan un diseño limpio y escalable.
+- **Principios Adapter**: Garantizan un diseño limpio y escalable.
 
 
 ## 📜 Cómo Usar
