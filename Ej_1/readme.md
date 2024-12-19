@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/18194207/Ej_1_UML_PatronFactory_.txt)# Ejercicio 1
+# Ejercicio 1
 
 ![PHP Version](https://img.shields.io/badge/PHP-8-blue.svg) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green.svg) ![Design Pattern](https://img.shields.io/badge/Design%20Pattern-Strategy-orange.svg)
 
