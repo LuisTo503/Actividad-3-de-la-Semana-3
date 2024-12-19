@@ -8,9 +8,9 @@
 
 ## 🚀 Funcionalidades
 
-- Crear un programa donde sea posible añadir diferentes armas a ciertos personajes de videojuegos.
-Debes utilizar al menos dos personajes para este ejercicio.
- Para llevar a cabo esta tarea, aplica el patrón de diseño Decorator.
+- Tenemos un sistema donde mostramos mensajes en distintos tipos de salida, como por consola, formato JSON y archivo TXT.
+- Debes crear un programa donde se muestren todos estos tipos de salidas.
+- Para este propósito, aplica el patrón de diseño Strategy.
 
 ---
 
