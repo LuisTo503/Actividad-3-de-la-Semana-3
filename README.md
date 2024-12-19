@@ -10,8 +10,8 @@ Guía de ejercicios patrones de diseño
 
 ### 🚀 Funcionalidades
 
-- **Para esta actividad tendrá que realizar 4 ejercicios sobre patrones de diseño en PHP.
-- **Aplica el patrón de diseño que se te indique en cada ejercicio, resolviéndolos con php.
+- Para esta actividad tendrá que realizar 4 ejercicios sobre patrones de diseño en PHP.
+- Aplica el patrón de diseño que se te indique en cada ejercicio, resolviéndolos con php.
 
 ---
 
@@ -21,7 +21,7 @@ Guía de ejercicios patrones de diseño
 - **Patrón Factory**:
 - **Patrón Adapter**:
 - **Patrón Decorator**:
-- **Patrón Strategy**: Para encapsular el comportamiento de las salidas.
+- **Patrón Strategy**: 
 - **Principios SOLID**: Garantizan un diseño limpio y escalable.
 
 ---
@@ -40,57 +40,6 @@ Guía de ejercicios patrones de diseño
 │   │   ├── Ej_4_Strategy.php
 ├── README.md
 
----
-
-## 📜 Cómo Usar
-
-1. **Clona el repositorio**:
-
-   ```bash
-   git clone git@github.com:LuisTo503/Actividad-3-de-la-Semana-3.git
-   cd sistema-mensajes
-   ```
-
-2. **Ejecuta el archivo principal**:
-
-   ```bash
-   php index.php
-   ```
-
-3. **Resultados esperados**:
-
-   - Mensajes en consola.
-   - Mensajes en formato JSON.
-   - Mensajes guardados en un archivo `mensajes.txt`.
-
----
-
-## 📝 Ejemplo de Salida
-
-### Consola:
-```
-Mensaje en consola: Hola, mundo!
-Mensaje en consola: Aplicando principios SOLID.
-...
-```
-
-### JSON:
-```json
-{
-    "mensaje": "Hola, mundo!"
-}
-{
-    "mensaje": "Aplicando principios SOLID."
-}
-...
-```
-
-### Archivo TXT:
-```
-Hola, mundo!
-Aplicando principios SOLID.
-...
-```
 
 ---
 
@@ -101,16 +50,6 @@ Aplicando principios SOLID.
 3. **Sustitución de Liskov (LSP)**: Las clases que implementan `SalidaInterface` pueden sustituirse sin alterar el comportamiento.
 4. **Segregación de Interfaces (ISP)**: La interfaz `SalidaInterface` contiene solo los métodos necesarios.
 5. **Inversión de Dependencia (DIP)**: `GestorMensajes` depende de abstracciones y no de implementaciones concretas.
-
----
-
-## 🌟 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este proyecto:
-
-1. Realiza un fork del repositorio.
-2. Crea una nueva rama para tu funcionalidad.
-3. Envía un pull request con una descripción detallada.
 
 ---
 
