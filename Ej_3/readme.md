@@ -1,4 +1,4 @@
-# Ejercicio 2
+# Ejercicio 3
 
 ![PHP Version](https://img.shields.io/badge/PHP-8-blue.svg) ![SOLID Principles](https://img.shields.io/badge/Solids-Principles-green.svg) ![Design Pattern](https://img.shields.io/badge/Design%20Pattern-Decorator-orange.svg)
 
