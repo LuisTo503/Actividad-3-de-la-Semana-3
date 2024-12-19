@@ -103,7 +103,7 @@ $gestor = new GestorMensajes();
 $mensajes = [
     "Hola, mundo!",
     "Aplicando principios SOLID.",
-    "PHP 8 es Aburido .",
+    "PHP 8 es Aburrido .",
     "Estamos aprendiendo patrones de diseño.",
     "El patrón Strategy es poderoso.",
     "Este es un mensaje de prueba.",
