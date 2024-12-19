@@ -128,7 +128,7 @@ try {
 
 ## 👨‍💻 Autor
 
-**Luis Roalndo Tobar**  
+**Luis Rolando Tobar**  
 
 
 ---
