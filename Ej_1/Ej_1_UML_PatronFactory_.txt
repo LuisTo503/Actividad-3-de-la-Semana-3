@@ -1,0 +1,26 @@
+@startuml
+
+interface Personaje {
++ atacar(): string
++ moverse(): string
+}
+
+class Esqueleto {
++ atacar(): string
++ moverse(): string
+}
+
+class Zombi {
++ atacar(): string
++ moverse(): string
+}
+
+class PersonajeFactory {
++ crearPersonaje(nivel: string): PersonajeFactory
+}
+
+Personaje <|.. Esqueleto
+Personaje <|..Zombi
+PersonajeFactory ..> Personaje
+
+@enduml

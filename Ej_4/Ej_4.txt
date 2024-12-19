@@ -1,0 +1,32 @@
+@startuml
+
+title sistema de Mensajes con Patrón ej4_patronStrategy
+
+interface Salida {
+    +mostrarMensaje(mensaje: String): void
+}
+
+class Consola implements Salida {
+    +mostrarMensaje(mensaje: String): void
+}
+
+class JSONSalida implements Salida {
+    +mostrarMensaje(mensaje: String): void
+}
+
+class ArchivoTXT implements Salida {
+    +mostrarMensaje(mensaje: String): void
+}
+
+class GestorMensajes {
+    -salida: Salida
+    +setSalida(salida: Salida): void
+    +enviarMensaje(mensaje: String): void
+}
+
+GestorMensajes --> Salida : usa
+Salida <|.. Consola
+Salida <|.. JSONSalida
+Salida <|.. ArchivoTXT
+
+@enduml

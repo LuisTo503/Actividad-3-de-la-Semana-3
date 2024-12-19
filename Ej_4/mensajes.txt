@@ -1,0 +1,60 @@
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es aburrido!.
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio 4 con éxito.
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es increíble.
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio con éxito.
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es increíble.
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio con éxito.
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es Aburido .
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio con éxito.
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es Aburido .
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio con éxito.
+Hola, mundo!
+Aplicando principios SOLID.
+PHP 8 es Aburido .
+Estamos aprendiendo patrones de diseño.
+El patrón Strategy es poderoso.
+Este es un mensaje de prueba.
+Usa interfaces para desacoplar el código.
+Escribe código limpio y mantenible.
+La programación orientada a objetos es esencial.
+Finalizando el ejercicio con éxito.

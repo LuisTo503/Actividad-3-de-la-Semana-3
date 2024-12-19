@@ -1,0 +1,38 @@
+@startuml
+
+title juego - patron decorator
+
+interface Personaje {
+    + getDescripcion(): string
+}
+
+class Guerrero {
+    + getDescripcion(): string
+}
+
+class Mago {
+    + getDescripcion(): string
+}
+
+abstract class ArmaDecorator {
+    # $personaje: Personaje
+    + __construct(Personaje personaje)
+    + getDescripcion(): string
+}
+
+class Espada {
+    + getDescripcion(): string
+}
+
+class Vara {
+    + getDescripcion(): string
+}
+
+Personaje <|.. Guerrero
+Personaje <|.. Mago
+Personaje <|.. ArmaDecorator
+ArmaDecorator <|-- Espada
+ArmaDecorator <|-- Vara
+ArmaDecorator o-- Personaje
+@enduml
+

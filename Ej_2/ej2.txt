@@ -1,0 +1,25 @@
+@startuml
+
+title Diagrama Conversion de ficheros - archivosWin7-10
+
+class Windows7File {
+    - filename: string
+    + __construct(filename: string)
+    + getFile(): string
+}
+
+class Windows10FileReader {
+    + readFile(fileContent: string): void
+}
+
+class FileAdapter {
+    - adaptee: Windows7File
+    + __construct(adaptee: Windows7File)
+    + convertFile(): string
+}
+
+Windows7File --> FileAdapter : adaptee
+FileAdapter --> Windows10FileReader : convertFile()
+@enduml
+
+@enduml
