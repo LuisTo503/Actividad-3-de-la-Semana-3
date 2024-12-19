@@ -21,7 +21,7 @@ aceptar estos archivos independientemente de que sean de versiones anteriores.
 
 - **PHP 8**: Lenguaje base del proyecto.
 - **Patrón Adapter**: 
-- **Principios Adapter**: Garantizan un diseño limpio y escalable.
+- **Principios Adapter**: Su objetivo es permitir que dos clases incompatibles trabajen juntas. El adaptador convierte la interfaz de una clase en una interfaz esperada por otro, facilitando la integración sin modificar el código original de las clases..
 
 
 ## 📜 Cómo Usar
