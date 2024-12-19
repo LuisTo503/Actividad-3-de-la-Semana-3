@@ -35,7 +35,21 @@ php ej1_PatronFactory.php
 ![Ejercicio1_PatronFactory](https://github.com/user-attachments/assets/1e2c5b0a-e098-4fe7-b28b-c1d439afa15b)
 
 ---
+**Script PHP 8**:
+```php
+<?php
+// Clase ejemplo para mostrar mensajes
+class Ejemplo {
+    public function mostrarMensaje($mensaje) {
+        echo $mensaje;
+    }
+}
 
+$ejemplo = new Ejemplo();
+$ejemplo->mostrarMensaje("¡Hola, mundo!");
+?>
+
+---
 ## 📝 Ejemplo de Salida
 
 ### Consola:
