@@ -1,4 +1,4 @@
-# Sistema de Mensajes con el Patrón Strategy
+[Ej_1_UML_PatronFactory_.txt](https://github.com/user-attachments/files/18194207/Ej_1_UML_PatronFactory_.txt)# Ejercicio 1
 
 ![PHP Version](https://img.shields.io/badge/PHP-8-blue.svg) ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-green.svg) ![Design Pattern](https://img.shields.io/badge/Design%20Pattern-Strategy-orange.svg)
 
@@ -8,89 +8,69 @@ Este proyecto implementa un sistema que muestra mensajes en diferentes formatos 
 
 ## 🚀 Funcionalidades
 
-- **Salida en consola**: Muestra los mensajes directamente en la consola.
-- **Salida en formato JSON**: Convierte los mensajes a formato JSON.
-- **Salida en archivo TXT**: Guarda los mensajes en un archivo de texto.
+- **	
+Crear un programa que contenga dos personajes: "Esqueleto" y "Zombi". Cada personaje tendrá una lógica diferente en sus ataques y velocidad. La creación de los personajes dependerá del nivel del juego:
+- En el nivel fácil se creará un personaje "Esqueleto".
+- En el nivel difícil se creará un personaje "Zombi".
+Debes aplicar el patrón de diseño Factory para la creación de los personajes.
 
 ---
 
 ## 🛠️ Tecnologías
 
 - **PHP 8**: Lenguaje base del proyecto.
-- **Patrón Strategy**: Para encapsular el comportamiento de las salidas.
+- **Patrón Factory**: 
 - **Principios SOLID**: Garantizan un diseño limpio y escalable.
 
----
-
-## 📂 Estructura del Proyecto
-
-```
-├── src
-│   ├── interfaces
-│   │   └── SalidaInterface.php
-│   ├── clases
-│   │   ├── ConsolaSalida.php
-│   │   ├── JSONSalida.php
-│   │   ├── TXTSalida.php
-│   ├── GestorMensajes.php
-├── mensajes.txt
-├── README.md
-└── index.php
-```
-
----
 
 ## 📜 Cómo Usar
 
-1. **Clona el repositorio**:
+**Ejecuta el archivo principal**:
 
-   ```bash
-   git clone https://github.com/tu_usuario/sistema-mensajes.git
-   cd sistema-mensajes
-   ```
+php ej1_PatronFactory.php
 
-2. **Ejecuta el archivo principal**:
+**Diagrama UML**:
 
-   ```bash
-   php index.php
-   ```
 
-3. **Resultados esperados**:
-
-   - Mensajes en consola.
-   - Mensajes en formato JSON.
-   - Mensajes guardados en un archivo `mensajes.txt`.
+![Ejercicio1_PatronFactory](https://github.com/user-attachments/assets/1e2c5b0a-e098-4fe7-b28b-c1d439afa15b)
 
 ---
 
 ## 📝 Ejemplo de Salida
 
 ### Consola:
-```
-Mensaje en consola: Hola, mundo!
-Mensaje en consola: Aplicando principios SOLID.
-...
-```
 
-### JSON:
-```json
-{
-    "mensaje": "Hola, mundo!"
+![ej1_PatronFactory](https://github.com/user-attachments/assets/6a291fa1-052b-422e-9599-41d3b964b6d6)
+
+
+### Diagrama UML:
+
+[Uplo@startuml
+
+interface Personaje {
++ atacar(): string
++ moverse(): string
 }
-{
-    "mensaje": "Aplicando principios SOLID."
+
+class Esqueleto {
++ atacar(): string
++ moverse(): string
 }
-...
-```
 
-### Archivo TXT:
-```
-Hola, mundo!
-Aplicando principios SOLID.
-...
-```
+class Zombi {
++ atacar(): string
++ moverse(): string
+}
 
----
+class PersonajeFactory {
++ crearPersonaje(nivel: string): PersonajeFactory
+}
+
+Personaje <|.. Esqueleto
+Personaje <|..Zombi
+PersonajeFactory ..> Personaje
+
+@endumlading Ej_1_UML_PatronFactory_.txt…]()
 
 ## ⚙️ Principios SOLID Aplicados
 
@@ -102,27 +82,13 @@ Aplicando principios SOLID.
 
 ---
 
-## 🌟 Contribuciones
 
-¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este proyecto:
 
-1. Realiza un fork del repositorio.
-2. Crea una nueva rama para tu funcionalidad.
-3. Envía un pull request con una descripción detallada.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
-
----
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**  
-Desarrollador apasionado por el diseño limpio y las buenas prácticas.  
-[LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com/tu_usuario) | [Portafolio](https://tuportafolio.com)
+**Luis Roalndo Tobar**  
+
 
 ---
 
