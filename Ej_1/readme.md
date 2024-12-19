@@ -20,7 +20,7 @@ Debes aplicar el patrón de diseño Factory para la creación de los personajes.
 
 - **PHP 8**: Lenguaje base del proyecto.
 - **Patrón Factory**: 
-- **Principios SOLID**: Garantizan un diseño limpio y escalable.
+- **Principios Factory**: Este patrón se usa para crear objetos sin especificar la clase exacta del objeto que se va a crear. En lugar de llamar directamente al constructor de una clase, se utiliza un método para crear objetos de diferentes tipos, basados en condiciones o parámetros.
 
 
 ## 📜 Cómo Usar
